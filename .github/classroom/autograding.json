@@ -12,8 +12,8 @@
     },
     {
       "name": "Test One: User and Process",
-      "setup": "sudo openfile.sh demofile2.txt",
-      "run": "sudo final.sh",
+      "setup": "sudo bash openfile.sh demofile2.txt",
+      "run": "sudo bash final.sh",
       "input": "",
       "output": "kathy2",
       "comparison": "included",
@@ -22,8 +22,8 @@
     },
     {
       "name": "Test Two: User and Process",
-      "setup": "sudo openfile2.sh",
-      "run": "sudo final.sh demofile2.txt",
+      "setup": "sudo bash openfile2.sh",
+      "run": "sudo bash final.sh demofile2.txt",
       "input": "",
       "output": "nelly8",
       "comparison": "included",
