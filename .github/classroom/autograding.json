@@ -12,7 +12,7 @@
     },
     {
       "name": "Test One: User and Process",
-      "setup": "sudo bash openfile.sh demofile2.txt",
+      "setup": "touch demofile2.txt; chmod 666 demofile2.txt; sudo bash openfile.sh demofile2.txt",
       "run": "sudo bash final.sh",
       "input": "",
       "output": "kathy2",
