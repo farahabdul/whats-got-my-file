@@ -12,10 +12,10 @@
     },
     {
       "name": "Test One: User and Process",
-      "setup": "osudo penfile.sh",
+      "setup": "sudo openfile.sh",
       "run": "sudo final.sh",
       "input": "",
-      "output": "username",
+      "output": "kathy2",
       "comparison": "included",
       "timeout": 20,
       "points": 40
@@ -25,7 +25,7 @@
       "setup": "sudo openfile2.sh",
       "run": "sudo final.sh",
       "input": "",
-      "output": "different username",
+      "output": "nelly8",
       "comparison": "included",
       "timeout": 20,
       "points": 40
