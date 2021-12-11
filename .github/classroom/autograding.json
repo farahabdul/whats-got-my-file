@@ -12,23 +12,13 @@
     },
     {
       "name": "Test One: User and Process",
-      "setup": "touch demofile2.txt; chmod 666 demofile2.txt; sudo bash openfile.sh demofile2.txt",
-      "run": "sudo bash final.sh demofile2.txt",
+      "setup": "",
+      "run": "sudo bash final.sh /run/systemd/journal/stdout",
       "input": "",
-      "output": "kathy2",
+      "output": "systemd",
       "comparison": "included",
       "timeout": 20,
-      "points": 40
+      "points": 80
     },
-    {
-      "name": "Test Two: User and Process",
-      "setup": "sudo bash openfile2.sh",
-      "run": "sudo bash final.sh demofile2.txt",
-      "input": "",
-      "output": "nelly8",
-      "comparison": "included",
-      "timeout": 20,
-      "points": 40
-    }
   ]
 }
