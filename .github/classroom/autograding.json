@@ -12,7 +12,7 @@
     },
     {
       "name": "Test One: User and Process",
-      "setup": "sudo openfile.sh",
+      "setup": "sudo openfile.sh demofile2.txt",
       "run": "sudo final.sh",
       "input": "",
       "output": "kathy2",
@@ -23,7 +23,7 @@
     {
       "name": "Test Two: User and Process",
       "setup": "sudo openfile2.sh",
-      "run": "sudo final.sh",
+      "run": "sudo final.sh demofile2.txt",
       "input": "",
       "output": "nelly8",
       "comparison": "included",
